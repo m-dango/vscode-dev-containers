@@ -1,0 +1,24 @@
+{
+	"id": "raku",
+	"version": "1.0.0",
+	"name": "Raku",
+	"description": "Develop Raku applications on Linux",
+	"documentationURL": "https://github.com/microsoft/vscode-dev-containers/tree/main/containers/raku",
+	"publisher": "Community",
+	"licenseURL": "https://github.com/microsoft/vscode-dev-containers/blob/main/LICENSE",
+	"options": {
+		"installZsh": {
+			"type": "boolean",
+			"description": "Install ZSH!?",
+			"default": "true"
+		},
+		"upgradePackages": {
+			"type": "boolean",
+			"description": "Upgrade OS packages to their latest versions",
+			"default": "false"
+		}
+	},
+	"platforms": [
+		"Raku"
+	]
+}

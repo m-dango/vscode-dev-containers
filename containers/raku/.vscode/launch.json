@@ -1,0 +1,25 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "raku",
+            "request": "launch",
+            "name": "Raku-Debug local",
+            "console": "integratedTerminal",
+            "program": "${workspaceFolder}/test-project/sample.raku",
+            "exec": "raku",
+            "execArgs": [],
+            "root": "${workspaceRoot}/test-project/",
+            "inc": [],
+            "args": [],
+            "env": {},
+            "debugRaw": false,
+            "debugLog": false,
+            "stopOnEntry": true,
+            "sessions": "single"
+        }
+    ]
+}
